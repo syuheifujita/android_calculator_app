@@ -47,8 +47,8 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="÷"
-            android:onClick="onDigit"/>
+            android:text="/"
+            android:onClick="onOperator"/>
 
     </LinearLayout>
 
@@ -89,8 +89,8 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="×"
-            android:onClick="onDigit"/>
+            android:text="*"
+            android:onClick="onOperator"/>
 
     </LinearLayout>
 
@@ -132,7 +132,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="-"
-            android:onClick="onDigit"/>
+            android:onClick="onOperator"/>
 
     </LinearLayout>
 
@@ -174,7 +174,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="+"
-            android:onClick="onDigit"/>
+            android:onClick="onOperator"/>
 
     </LinearLayout>
 
@@ -207,7 +207,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="."
-            android:onClick="onDigit"/>
+            android:onClick="onDecimelPoint"/>
 
         <Button
             android:id="@+id/btn_result"
@@ -215,7 +215,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="="
-            android:onClick="onDigit"/>
+            android:onClick="onRsult" />
 
     </LinearLayout>
 
