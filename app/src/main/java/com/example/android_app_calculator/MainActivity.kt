@@ -1,4 +1,4 @@
-package com.example.android_app_calculator
+package com.syuheifujita.android_app_calculator
 
 import android.os.Bundle
 import android.view.View

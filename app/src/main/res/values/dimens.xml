@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="text_size_tv_result" type="dimen">40sp</item>
+    <item name="text_size" type="dimen">40sp</item>
+
+</resources>

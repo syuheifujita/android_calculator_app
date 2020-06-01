@@ -8,7 +8,12 @@
     </style>
     
     <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowNoTitle">true</item>
+    </style>
 
+    <style name="btn_clear">
+        <item name="android:background">@android:color/holo_red_light</item>
+        <item name="android:radius">10dp</item>
     </style>
 
 </resources>
